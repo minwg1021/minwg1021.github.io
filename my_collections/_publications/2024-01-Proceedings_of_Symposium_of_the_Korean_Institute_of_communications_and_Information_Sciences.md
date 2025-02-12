@@ -7,5 +7,5 @@ venue: <strong>Proceedings of Symposium of the Korean Institute of communication
 vtype: conference
 year: 2024
 ptype: Conference Paper
-file: /assets/files/Proceedings_of_Symposium_of_the_Korean_Institute_of_communications_and_Information_Sciences.pdf.pdf
+file: /assets/files/Proceedings_of_Symposium_of_the_Korean_Institute_of_communications_and_Information_Sciences.pdf
 ---
