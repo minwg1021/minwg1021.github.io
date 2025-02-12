@@ -1,0 +1,100 @@
+---
+layout: single
+classes: wide
+author_profile: true
+---
+<div id="bio" class="section">
+<h4 class="section_title">About Me</h4>
+<p class="minor">
+I am a Master Candidate in <a href="https://software.cbnu.ac.kr/main">the School of Computer Science at Chungbuk National University</a>, where I am belong to the <a href="https://ohyunjo.wixsite.com/islcbnu">Information System Lab(ISL).</a> 
+Prior to joining CBNU, I worked as a Master Candidate at <a href="https://software.cbnu.ac.kr/main">the School of Computer Science at Chungbuk National University</a> with <a href="https://ohyunjo.wixsite.com/islcbnu/professor">Prof. Ohyun Jo</a>.
+I received my B.S. degree in Computer Science from Chungbuk National University</a>.
+</p>
+</div>
+<!--
+<div id="exp" class="section">
+
+    <h4 class="section_title">Positions</h4>
+    <hr class="sep">
+    <p class="major">&#8226; <strong>Chungbuk National University</strong> &#8226; Sep. 2024 - Present</p>
+    <p class="minor"><i></i>Assistant Professor, School of Computer Science</i></p>
+	
+    <p class="major">&#8226; <strong>University of Michigan</strong> &#8226; May. 2022 - Aug. 2024</p>
+    <p class="minor">Postdoctoral Researcher </p>
+    <!-- <p class="minor">Project: Hypergraph mining for real-world downstream applications </p>
+    <p class="minor">Advisor: <a href="http://www-personal.umich.edu/~qmei/">Prof. Qiaozhu Mei</a></p>
+
+    <p class="major">&#8226; <strong>Pennsylvania State University</strong> &#8226; Oct. 2019 - Feb. 2020</p>
+    <p class="minor">Visiting Scholar</p>
+    <p class="minor">Project: Community detection on real-world social networks</p>
+    <p class="minor">Advisor: <a href="https://pike.psu.edu/dongwon/">Prof. Dongwon Lee</a></p>
+</div>
+-->
+
+
+<div id="edu" class="section">
+    <h4 class="section_title">Education</h4>
+    <p class="major">&#8226; <strong>Chungbuk National University</strong>, Cheong-ju, South Korea</p>
+    <p class="minor">Master Candidate in Computer Science (2025.09 - )</p>
+    <!--<p class="minor">Thesis: <a href="https://repository.hanyang.ac.kr/handle/20.500.11754/167492">Graph Reinforcement for Accurate Community Detection and Embedding on Graphs and Hypergraphs</a></p>
+    <p class="minor">Advisor: <a href="http://www.agape.hanyang.ac.kr/members/prof">Prof. Sang-Wook Kim</a></p> -->
+    <p class="major">&#8226; <strong>Chungbuk National University</strong>, Cheong-ju, South Korea</p>
+    <p class="minor">B.S in Computer Science (2023.03 - 2025.06)</p>
+    <p class="major">&#8226; <strong>Suncheon National University</strong>, Suncheon, South Korea</p>
+    <p class="minor">Completion in Computer Education (2019.02 - 2023.02)</p>
+</div>
+
+
+<div id="pub" class="section">
+<h4 class="section_title">Publications</h4>
+{% assign publications = site.publications | sort: 'id' | reverse %}
+{% for pub in publications %}
+    <div class="row my_paper">
+    {% if pub.vtype == 'journal' %}
+        <div class="column left journal"><p>[{{pub.index}}]</p></div>
+    {% endif %}
+    {% if pub.vtype == 'conference' %}
+        <div class="column left conference"><p>[{{pub.index}}]</p></div>
+    {% endif %}
+        <div class="column right">
+            <p class="title">{{ pub.title }}</p>
+            <p>{{ pub.authors }}</p>
+            <p class="venue">{{ pub.venue }}</p>
+            {% if pub.award %}<p class="award">{{pub.award}}</p>{% endif %}
+	    <div class="paper-buttons">
+		    <a class="button" href={{pub.file}} target="_blank">[paper]</a>
+		    </div>
+			<!-- <p class="media">{% for media in pub.medias %}[<a href="#">{{media}}</a>]{% endfor %}</p> -->
+        </div>
+    </div>
+{% endfor %}
+</div>
+
+
+
+<div id="honors" class="section">
+    <h4 class="section_title">Services</h4>
+    <p class="major">&#8226; <strong>119 Honor of Righteous Person</strong></p>
+    <p class="minor">Korea National Fire Agency (2020)</p>
+<!--
+    <p class="major">&#8226; <strong>Best Paper Award</strong></p>
+    <p class="minor">Samsung Electronics Co., Ltd. &#8226; 2022</p>
+    <p class="major">&#8226; <strong>Best Ph.D. Dissertation Award</strong></p>
+    <p class="minor">Research Institute of Industrial Science, Hanyang University  &#8226; 2022</p>
+    <p class="major">&#8226; <strong>Naver Ph.D. Fellowship</strong></p>
+    <p class="minor">Naver Corporation  &#8226; 2021</p>
+    <p class="major">&#8226; <strong>Best Paper Award</strong></p>
+    <p class="minor">Korea Information Processing Society (KIPS)  &#8226; 2021</p>
+    <p class="major">&#8226; <strong>ACM SIGIR Student Travel Award</strong></p>
+    <p class="minor">ACM International Conference on Information and Knowledge Management (ACM CIKM) &#8226; 2020</p>
+    <p class="major">&#8226; <strong>ACM SIGIR Student Travel Award</strong></p>
+    <p class="minor">ACM International Conference on Information and Knowledge Management (ACM CIKM) &#8226; 2017</p>
+    <p class="major">&#8226; <strong>ACM SIGAPP Student Travel Award</strong></p>
+    <p class="minor">ACM Symposium on Applied Computing (ACM SAC) &#8226; 2016</p>
+    <p class="major">&#8226; <strong>HYU & NHN Ph.D. Fellowship</strong></p>
+    <p class="minor">NHN Corporation  &#8226; 2017</p>
+    <p class="major">&#8226; <strong>Best Paper Award</strong></p>
+    <p class="minor">IEEE International Conference on Network Infrastructure and Digital Content (IEEE IC-NIDC)  &#8226; 2014</p>
+-->
+</div>
+
