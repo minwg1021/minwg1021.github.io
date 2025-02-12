@@ -1,0 +1,18 @@
+# main links
+main:
+  - title: "Home"
+    url: https://mineruking.github.io/
+  - title: "Education"
+    url: /#edu
+  - title: "Publications"
+    url: /#pub
+  - title: "Services"
+    url: /#Services
+  #- title: "CV"
+  #  url: /assets/files/minkim_cv.pdf
+  # - title: "Sample Posts"
+    # url: /year-archive/
+  # - title: "Sample Collections"
+    # url: /collection-archive/
+  # - title: "Sitemap"
+    # url: /sitemap/
