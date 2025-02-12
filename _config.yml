@@ -21,11 +21,11 @@ title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Woonggyu Min"
 description              : "Woonggyu Min's Profile"
-url                      : "https://minwg1021.gitbhub.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://Woong9Min.gitbhub.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 future                   : true
 
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "minwg1021/Woong9Min.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "Woong9Min/Woong9Min.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -135,7 +135,7 @@ author:
       url: "mailto:minwg1021@chungbuk.ac.kr"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/minwg1021/"
+      url: "https://github.com/Woong9Min/"
     - label: "Google Scholar"
       icon: "fas fa-fw fa-graduation-cap"
       url: "https://scholar.google.com/citations?user=ghQHVX0AAAAJ&hl=ko&authuser=1"
