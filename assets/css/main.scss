@@ -1,0 +1,216 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+search: false
+---
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+@import url('https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.section_title{
+    font-family:  'Kantumruy Pro',  sans-serif;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 8px;
+    //color: #FFCB05;
+}
+.my_paper{
+    font-family: 'Kantumruy Pro', sans-serif;
+    font-size:  14px;
+}
+.journal {
+    // color:rgba(22, 99, 62, 1);
+    // color: #F49F1C;
+}
+.conference {
+    // color: rgba(30, 85, 163, 1);
+    // color: #030E4F;
+}
+.row {
+    display: table;
+    clear: both;
+    margin-top: 1em;
+    width: 100%
+}
+.column {
+    float: left;
+}
+.left {
+    width: 10%;
+    font-weight: 700;
+    padding-top: 2px;
+    font-size: 16px;
+}
+.right {
+    width: 90%;
+}
+.right > p {  margin-top: 0.0em; margin-bottom: 0em; }
+
+p.title{
+    font-family: 'Kantumruy Pro', sans-serif;
+    font-weight: 900;
+    color: (67, 124, 227, 0.96);
+    font-size: 20px;
+}
+p.venue{
+    color: #006400;
+    // color: rgba(50, 105, 203, 1);
+    //color: #00274c;
+}
+p.award{
+    // color:rgba(22, 99, 62, 1);
+    // color: rgba(255, 203, 5, 1);
+    color: rgba(250, 50, 50, 0.9);
+    // color: #fcc729;
+}
+
+hr.sep {
+    border: 0.5px solid rgba(130, 130, 130, 0.5);
+    border-radius: 1px;
+    padding: 0px;
+    margin: 0px;  
+    width: 100%;
+}
+
+.masthead {
+    font-family: 'Kantumruy Pro';
+    font-weight: 500;
+    background: #FFFFFF;  // set a color to hide content that may appear below masthead
+    font-size: 20px;
+    color: rgba(0, 0, 0, 1);
+    position: fixed;
+    top: 0;
+    // border-bottom: 1.5px solid #f2f3f3;
+    // border-bottom: 078px solid rgba(200, 200, 200, 0.3);
+    box-shadow: 0 1px 0px 0px rgba(200, 200, 200, 0.3);
+    -webkit-animation: intro 0.3s both;
+    animation: intro 0.3s both;
+    -webkit-animation-delay: 0.15s;
+    animation-delay: 0.15s;
+    z-index: 20;
+    width: 90%;
+    height: 60px; // need a magic number here which may break in different viewports
+    padding-bottom: 90px;
+}
+.greedy-nav{
+    background: #FFFFFF;  // set a color to hide content that may appear below masthead
+    font-weight: 500;
+    color: rgba(0, 0, 0, 1);
+    // color: rgba(250, 250, 250, 1);
+}
+.greedy-nav .visible-links a::before {
+    content: "";
+    position: absolute;
+    inset-inline-start: 0px;
+    bottom: 0px;
+    height: 4px;
+    width: 100%;
+    transform: scaleX(0) translate3d(0px, 0px, 0px);
+    background: green;
+    transition: 0.2s ease-in-out;
+}
+.greedy-nav a{
+    background: #FFFFFF;
+    //color: rgba(0, 0, 0, 1);
+    
+}
+body {
+    padding: 85px 0 0;
+    margin: 0px;
+    line-height: 1.5;
+    // color: rgba(70, 70, 70, 1);
+    //color: rgba(255, 203, 5, 1);
+}
+.section a{
+    //color: rgba(20, 75, 153, 1);
+    color: #006400;
+}
+a{
+    //color: rgba(20, 75, 153, 1);
+    // color: rgba(30, 85, 163, 1);
+}
+#pub{
+    width: 100%;
+}
+.section{
+    width: 85%;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.section > p{
+    font-family: 'Kantumruy Pro', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    margin-top: 0em; 
+    margin-bottom: 0em; 
+}
+p.major{ 
+    padding-top: 10px;
+    margin-top: 0.5em}
+p.minor{ margin-left: 1em}
+#bio{
+    margin-top: -60px;
+}
+.author__avatar img {
+    max-width: 200px;
+    border-radius: 0%;
+    border-width: 00px;
+    border-color: #000000 // #337def; // ;
+}
+
+
+
+@media screen and (max-width:1023px) {
+    .my_paper{
+        font-family:  'Kantumruy Pro', sans-serif;
+        font-size:  14px;
+    }
+    .left {
+        width: 10%;
+        font-weight: 900;
+        padding-top: 2px;
+        font-size: 14px;
+    }
+    p.title{
+        font-weight: 900;
+        color: (67, 124, 227, 0.96);
+        font-size: 20px;
+    }
+    .section > p{
+        font-size: 18px;
+        text-align: justify;
+        margin-top: 0em; 
+        margin-bottom: 0em; 
+    }
+
+    .paper-buttons {
+      margin-top: 5px }
+    .button {
+      display: inline-block;
+      height: 25px;
+      padding: 0 25px;
+      font-weight: 100;
+      line-height: 25px;
+      text-transform: none;
+      color: #006400;
+    }
+}
+@media screen and (max-width:768px) {
+    .section{
+        width: 100%;
+    }
+}
+@media screen and (max-width:576px) {
+    .left {
+        width: 100%;
+    }
+    .right {
+        margin-top: -20px;
+        width: 100%;
+    }
+}
+
