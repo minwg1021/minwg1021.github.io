@@ -16,16 +16,16 @@ minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Min Kim"
+title                    : "Woonggyu Min"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Min Kim"
-description              : "Min Kim's Profile"
-url                      : "https://mineruking.gitbhub.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : "Woonggyu Min"
+description              : "Woonggyu Min's Profile"
+url                      : "https://minwg1021.gitbhub.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 future                   : true
 
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "mineruking/mineruking.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "minwg1021/minwg1021.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -124,7 +124,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Min Kim"
+  name             : "Woonggyu Min"
   avatar           : "/assets/files/pro.jpg"
   bio              : "Master Candidate @ Information System Lab, CBNU"
   # location         : "S4-1 room 306, Chungdae-ro 1, Seowon-gu, Cheongju, Chungbuk, 28644, ROK"
@@ -132,16 +132,16 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
-      url: "mailto:kmin010287@chungbuk.ac.kr"
+      url: "mailto:minwg1021@chungbuk.ac.kr"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/mineruking/"
+      url: "https://github.com/minwg1021/"
     - label: "Google Scholar"
       icon: "fas fa-fw fa-graduation-cap"
-      url: "https://scholar.google.co.kr/null"
+      url: "https://scholar.google.com/citations?user=ghQHVX0AAAAJ&hl=ko&authuser=1"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin-in"
-      url: "https://www.linkedin.com/in/%EB%AF%BC-%EA%B9%80-8211152a8/"
+      url: "https://www.linkedin.com/in/woonggyu-min-2717a9350/"
     - label: "CV"
       icon : "fas fa-fw fa-file"
       url: /assets/files/mkim_cv.pdf
