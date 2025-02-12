@@ -3,7 +3,7 @@ id: 2
 title: "On the Design of a Light-Weight Deep Learning Framework for Embedding in 5G Software Modem"
 index: J01
 authors: <strong><u>Woonggyu Min, Seungwoo Kang, Juyeop Kim, Ohyun Jo</u></strong>
-venue: <strong>IEEE Access</strong>
+venue: <strong>IEEE Access, 2024</strong>
 vtype: journal
 year: 2024
 ptype: Full Paper
